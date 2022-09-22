@@ -1,0 +1,18 @@
+# IDE and os files
+.DS_Store
+.idea
+*.log
+tmp/
+.vscode/
+
+# test coverage output
+*.out
+
+# vendor files
+vendor/*
+
+# exception for some vendor
+!vendor/.gitkeep
+
+# binary program
+golang-onboarding
