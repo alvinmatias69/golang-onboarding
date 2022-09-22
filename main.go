@@ -28,8 +28,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		err = todoHnd.Parse(line)
-		if err != nil {
+		if err = todoHnd.Parse(line); err != nil {
 			log.Printf("error: %s\n", err.Error())
 		}
 	}
